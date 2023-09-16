@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+	  .dropbtn {
+  background-color: #0033a0;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0033a0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #0033a0}
+    /* Your existing styles for the dropdown menu and top bar */
+
+    /* Add styles for the top bar */
+    .top-bar {
+      background-color: #d22e00; /* Darker shade of red for the top bar */
+      height: 30px; /* Adjust the height of the top bar as needed */
+      width: 100%; /* Make it span the entire width of the viewport */
+      position: fixed; /* Fixed positioning to stay at the top */
+      top: 0; /* Position it at the top */
+      left: 0; /* Position it on the left */
+      z-index: 999; /* Ensure it's on top of other content */
+    }
+
+    /* Rest of your existing styles */
+
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photoshop Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+</head>
+<body>
+	<!-- Add the top bar within your body section -->
+  <div class="top-bar">
+    <!-- Move the dropdown menu code here -->
+    <div class="dropdown">
+      <button class="dropbtn">Back</button>
+      <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="Illustrator.html">More About Illustrator</a>
+        <a href="Indesign.html">More About Indesign</a>
+        <a href="Premiere.html">More About Premiere Pro</a>
+        <a href="Dreamweaver.html">More About Dreamweaver</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Photoshop</h1>
+        <p>Your gateway to the world of digital imaging and design.</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li>Overview</li>
+            <li>Features</li>
+            <li>Tutorials</li>
+            <li>Download</li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Overview Section -->
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>Adobe Photoshop is the industry-standard software for digital image editing and graphic design. It offers a wide range of tools and features that allow you to create, enhance, and manipulate images with precision and creativity. Whether you're a professional photographer, graphic designer, or hobbyist, Photoshop empowers you to turn your ideas into stunning visuals.</p>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Advanced image retouching: Perfect your photos with powerful retouching tools.</li>
+                <li>Photo manipulation: Combine and transform images to unleash your creativity.</li>
+                <li>Graphic design capabilities: Create eye-catching graphics, posters, and more.</li>
+                <li>Layer-based editing: Work non-destructively by organizing content in layers.</li>
+                <li>Filters and effects: Apply artistic filters and effects to achieve unique looks.</li>
+                <li>Extensive brush library: Craft digital paintings with a wide variety of brushes.</li>
+            </ul>
+        </section>
+
+        <!-- Tutorials Section -->
+        <section id="tutorials">
+            <h2>Tutorials</h2>
+            <p>Explore our collection of tutorials to master Photoshop's capabilities. Whether you're a beginner or an experienced user, these step-by-step guides cover a wide range of topics, from basic editing techniques to advanced creative projects.</p>
+            <a href="tutorials.html">Explore Tutorials</a>
+        </section>
+
+        <!-- Download Section -->
+        <section id="download">
+            <h2>Download Photoshop</h2>
+            <p>Ready to start your creative journey? Download Adobe Photoshop now and experience the power of digital imaging and design.</p>
+            <a href="https://www.adobe.com/products/photoshop.html" target="_blank">Download Photoshop</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Adobe Photoshop</p>
+    </footer>
+</body>
+</html>

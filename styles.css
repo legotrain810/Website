@@ -1,0 +1,91 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #001c55; /* Dark blue background color */
+  color: #fff; /* White text color */
+}
+
+.top-bar {
+  background-color: #0033a0; /* A shade of blue for the top bar */
+  height: 50px; /* Adjust the height of the top bar as needed */
+  width: 100%; /* Make it span the entire width of the viewport */
+  position: fixed; /* Fixed positioning to stay at the top */
+  top: 0; /* Position it at the top */
+  left: 0; /* Position it on the left */
+  z-index: 999; /* Ensure it's on top of other content */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto; /* Center the container horizontally */
+  padding: 20px;
+  background-color: #003fbb; /* A shade of blue for the content container */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the container */
+}
+
+.header {
+  background-color: #0050d0; /* Another shade of blue for the header */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Style for links */
+a {
+  color: #ffac00; /* Golden yellow link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style for headings */
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+/* Style for paragraphs */
+p {
+  line-height: 1.6;
+}
+
+/* Style for unordered lists */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Style for list items */
+li {
+  margin-bottom: 5px;
+}
+
+/* Style for footer */
+.footer {
+  background-color: #0033a0; /* Back to the top bar's blue color for the footer */
+  color: #fff; /* Footer text color */
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Add more CSS rules to style other elements as needed */

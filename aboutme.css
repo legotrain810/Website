@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background: #4863A0;
+}
+p {
+  color: limegreen;
+}
+h1 {
+  font-weight: bold;
+  color: blue;
+}
+h2 {
+  font-weight: bold;
+  color:dodgerblue;
+}
+img {
+  float: left;
+  width: 200px;
+  margin: 10px;
+  border-color:greenyellow;
+  border-width: 4px;
+  border-style:dashed;
+  border-radius: 100px;
+  height:200;
+
+
+}
+
